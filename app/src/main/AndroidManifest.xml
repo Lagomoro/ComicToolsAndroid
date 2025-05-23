@@ -32,6 +32,11 @@
                     android:scheme="moro-works" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".GoodDisplayNFCePaperActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

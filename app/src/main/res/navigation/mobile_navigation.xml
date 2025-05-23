@@ -3,7 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_epaper">
+
+    <fragment
+        android:id="@+id/nav_epaper"
+        android:name="com.moroworks.comictools.ui.epaper.GoodDisplayNFCePaperFragment"
+        android:label="@string/menu_epaper"
+        tools:layout="@layout/fragment_epaper" />
 
     <fragment
         android:id="@+id/nav_home"
